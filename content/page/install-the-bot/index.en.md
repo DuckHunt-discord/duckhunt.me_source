@@ -7,12 +7,12 @@ categories: []
 tags: []
 ---
 
-First, I’d like to thank [HostMyServers](https://www.hostmyservers.fr/) for providing me a server to host DuckHunt on. It is fast, reliable and well-supported!
+Я бы хотел поблагодарить [HostMyServers](https://www.hostmyservers.fr/), они предоставили мне хостинг для DuckHunt. Надёжный хостинг с быстрой поддержкой.
 
-Adding the official bot to your server is super easy ! Follow the instructions:
+Добавить бота очень просто и быстро! Для этого:
 
-*   Join [our discord server](https://discord.gg/2BksEkV) to get support if needed. You can ask a @Moderator to get the @Server Owner role, reserved for admins of DuckHunt on their servers!
-*   **Invite the bot to your server by clicking** [**here**](https://discordapp.com/api/oauth2/authorize?client_id=187636051135823872&permissions=70646849&scope=bot)
-*   In the channel you want to use, type !setup and follow the instructions given to you.
+*   Присоединитесь к [нашему серверу](https://discord.gg/2BksEkV), чтобы получить поддержку. Вы можете попросить модераторов (@Moderator), чтобы они выдали вам роль владельца сервера (@Server Owner), она зарезервирована для владельцев серверов, на которых есть DuckHunt!
+*   **Пригласите бота на ваш сервер, нажав** [**сюда**](https://discordapp.com/api/oauth2/authorize?client_id=187636051135823872&permissions=70646849&scope=bot)
+*   В канале, в котором вы хотите начать игру, напишите dh!setup и следуйте инструкциям.
 
-Thanks for using DuckHunt!
+Спасибо, что вы с нами!
