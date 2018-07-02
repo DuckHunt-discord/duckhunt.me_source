@@ -1,30 +1,29 @@
 ---
-title: "Command list"
+title: "Список команд"
 date: 2002-01-00T00:00:00+00:00
 draft: false
 
 categories: []
 tags: []
 ---
-All commands are written with the universal `dh!` prefix.
+В примерах команды приведены с универсальным префиксом `dh!`.
 
-Alternatively, you can use the prefix set on your server too, (the default is `!`) which can be changed by server owners.
+Администраторы могут устанавливать свой префикс на своих серверах (`!` по умолчанию).
  
-Arguments to the commands listed below are specified with `<>` if they must be specified, and with `[]` otherwise.
-Please don’t type the brackets on commands, thanks :)
+Если параметр находится между `<>`, значит он обязательный, если между `[]`, значит его можно не указывать.
+При использований команд использовать `<>` и `[]` не надо  :)
  
-You can pass a player as an argument using his/her User ID, a mention, their nickname, or their username and Discord tag.
+Для указания конкретного пользователя можно использовать его ID или @упомянуть его.
    
    
-Below, you'll find an overview of general commands for playing DuckHunt (Player Commands)
-as well as commands for setting up and managing the DuckHunt bot on your server (Administrator Commands).
+Ниже описаны все команды, как те, которые могут использовать все, так и команды для настройки DuckHunt на вашем сервере (их могут использовать только администраторы).
  
-For further info about specific commands, see the list of [shop items](https://duckhunt.me/shop-items/) or the [bot settings](https://duckhunt.me/bot-settings/).
+Для получения дополнительной информации о некоторых командах посетите [список товаров](https://duckhunt.me/shop-items/) и [список параметоров](https://duckhunt.me/bot-settings/).
 
-## Player commands
+## Команды для игры
 
 {{< table >}}
-|Command|Description|
+|Команда|Описание|
 |--- |--- |
 |dh!bang|Command used to shoot a duck. Don't forget that sometimes, mistakes happen and you can miss the ducks... Or worse.|
 |dh!reload|Reloads or unjams your weapon. You must have chargers left if you want to reload. They are given back for free everyday (check dh!freetime command), but you can also buy them in the shop.|
