@@ -26,11 +26,11 @@ tags: []
 |Команда|Описание|
 |--- |--- |
 |dh!bang|Используйте, чтобы выстрелить. Иногда что-то может пойти не так и вы можете промахнуться по утке... и попасть в кого-то ещё.|
-|dh!reload|Перезарядка оружия. У вас должен быть хотя бы один запасной магазин для перезарядки. Какждый день их раздают бесплатно (см. команду dh!freetime), их также можно купить в магазине.|
-|dh!help|Sends you the help message.|
-|dh!wiki|Sends the link to this website.|
-|dh!stats [player]|Gets your or another player hunting statistics.|
-|dh!shop <item number> [argument]|Command used to buy things from the shop. For more information, see the Shop Items page. You can also use the dh!shop list command to show the link to the shop items page.|
+|dh!reload|Используйте, чтобы перезарядить ружьё. У вас должен быть хотя бы один запасной магазин для перезарядки. Какждый день их раздают бесплатно (см. команду dh!freetime), их также можно купить в магазине.|
+|dh!help|Используйте, чтобы получить справку о работе бота.|
+|dh!wiki|Используйте, чтобы получить ссылку на этот сайт.|
+|dh!stats [игрок]|Используйте, чтобы узнать свою или чужую статистику.|
+|dh!shop <номер предмета> [параметр]|Используйте для совершения покупок в магазине. Для получения дополнительной информации посетите список предметов (см. dh!shop list).|
 |dh!top --sort-by [time/missed/exp/killed]|See the best players on the channel. You can choose a criteria to sort by if needed.|
 |dh!send_exp <player> <amount>|Sends some of your experience points to another player on the game. A tax can be applied to the transfer, dependings on the server settings.|
 |dh!freetime|This command willl display the time left to wait for the free giveback of chargers and weapons.|
