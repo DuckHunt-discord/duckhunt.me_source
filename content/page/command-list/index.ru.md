@@ -20,13 +20,13 @@ tags: []
  
 Для получения дополнительной информации о некоторых командах посетите [список товаров](https://duckhunt.me/shop-items/) и [список параметоров](https://duckhunt.me/bot-settings/).
 
-## Команды для игры
+## Команды для игры (могут использовать все)
 
 {{< table >}}
 |Команда|Описание|
 |--- |--- |
-|dh!bang|Command used to shoot a duck. Don't forget that sometimes, mistakes happen and you can miss the ducks... Or worse.|
-|dh!reload|Reloads or unjams your weapon. You must have chargers left if you want to reload. They are given back for free everyday (check dh!freetime command), but you can also buy them in the shop.|
+|dh!bang|Используйте, чтобы выстрелить. Иногда что-то может пойти не так и вы можете промахнуться по утке... и попасть в кого-то ещё.|
+|dh!reload|Перезарядка оружия. У вас должен быть хотя бы один запасной магазин для перезарядки. Какждый день их раздают бесплатно (см. команду dh!freetime), их также можно купить в магазине.|
 |dh!help|Sends you the help message.|
 |dh!wiki|Sends the link to this website.|
 |dh!stats [player]|Gets your or another player hunting statistics.|
