@@ -45,14 +45,14 @@ tags: []
 {{< table >}}
 |Команда|Описание|
 |--- |--- |
-|dh!setup|This is the first command you should use after inviting DuckHunt to a server. It create the server settings and have a configuration wizard to make it easier for you.|
-|dh!add_channel|After using dh!setup, use this command on the channels you want ducks to appear in.|
-|dh!del_channel|This disables a channel added by dh!add_channel.|
-|dh!del_user|This removes an user from the database.|
-|dh!del_user_id|This removes an user from the database. This comment is meant to be used on players that left the server.|
-|dh!add_admin|Set another server administrator as an admin. Note that users with the Administrator permission in discord are considered Administrators too.|
-|dh!del_admin|Deletes a server admin from the admins list.|
-|dh!coin [--super-duck] [--life <life-points>]|Forces a duck to spawn.|
+|dh!setup|Используйте, чтобы начать настройку сервера. С её помощью вы сможете быстро настроить бота для нормальной игры.|
+|dh!add_channel|Используйте, чтобы добавить канал в игру.|
+|dh!del_channel|Используйте, чтобы удалить канал из игры.|
+|dh!del_user|Используйте, чтобы удалить пользователя из базы данных.|
+|dh!del_user_id|Используйте, чтобы удалить пользователя из базы данных, используя его ID.|
+|dh!add_admin|Используйте, чтобы дать пользователю доступ к командам для администраторов. Имейте в виду, что доступ к командам для администраторов есть у пользователей с правами администратора (в Discord).|
+|dh!del_admin|Используйте, чтобы лишить пользователя доступа к командам для администраторов.|
+|dh!coin [--super-duck] [--life <кол-во жизней>]|Используйте, чтобы вручную призвать утку.|
 |dh!ducks|Shows the number of ducks that will spawn today, and the list of ducks that are on the channel. It can be considered as a cheat.|
 |dh!give_exp <player> <amount>|Gives a player some exp points. This is a cheat, not to be confused with dh!send_exp.|
 |dh!settings set <parameter> <value>|Modify server settings. You can go to the Bot Settings page to learn more about this command.|
