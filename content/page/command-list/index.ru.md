@@ -31,19 +31,19 @@ tags: []
 |dh!wiki|Используйте, чтобы получить ссылку на этот сайт.|
 |dh!stats [игрок]|Используйте, чтобы узнать свою или чужую статистику.|
 |dh!shop <номер предмета> [параметр]|Используйте для совершения покупок в магазине. Для получения дополнительной информации посетите список предметов (см. dh!shop list).|
-|dh!top --sort-by [time/missed/exp/killed]|See the best players on the channel. You can choose a criteria to sort by if needed.|
-|dh!send_exp <player> <amount>|Sends some of your experience points to another player on the game. A tax can be applied to the transfer, dependings on the server settings.|
-|dh!freetime|This command willl display the time left to wait for the free giveback of chargers and weapons.|
-|dh!settings list|Lists every possible setting that can be modified.|
-|dh!settings modified|See settings that were modified and their new value.|
-|dh!ping|Pings the bot to see if it is online.|
-|dh!uptime|Shows the bot's uptime.|
+|dh!top --sort-by [time/missed/exp/killed]|Используйте, чтобы просмотреть список лучших охотников канала. Можно выбрать, по какому критерию сортировать (time — время, missed — промахи, exp — кол-во очков опыта, killed — кол-во убитых уток).|
+|dh!send_exp <игрок> <количество>|Используйте, чтобы отправить другому охотнику некоторое кол-во очков опыта. В зависимости от настроек сервера может быть наложена комиссия.|
+|dh!freetime|Используйте, чтобы посмотреть, когда произойдёт ближайшая раздача вещей.|
+|dh!settings list|Используйте, чтобы просмотреть список параметров.|
+|dh!settings modified|Используйте, чтобы просмотреть значения у параметров, которые были изменены.|
+|dh!ping|Используйте, чтобы проверить пинг.|
+|dh!uptime|Используйте, чтобы узнать аптайм бота.|
 {{< /table >}}
 
-## Administrator commands
+## Команды для администраторов
 
 {{< table >}}
-|Command|Description|
+|Команда|Описание|
 |--- |--- |
 |dh!setup|This is the first command you should use after inviting DuckHunt to a server. It create the server settings and have a configuration wizard to make it easier for you.|
 |dh!add_channel|After using dh!setup, use this command on the channels you want ducks to appear in.|
