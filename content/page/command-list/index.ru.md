@@ -53,10 +53,10 @@ tags: []
 |dh!add_admin|Используйте, чтобы дать пользователю доступ к командам для администраторов. Имейте в виду, что доступ к командам для администраторов есть у пользователей с правами администратора (в Discord).|
 |dh!del_admin|Используйте, чтобы лишить пользователя доступа к командам для администраторов.|
 |dh!coin [--super-duck] [--life <кол-во жизней>]|Используйте, чтобы вручную призвать утку.|
-|dh!ducks|Shows the number of ducks that will spawn today, and the list of ducks that are on the channel. It can be considered as a cheat.|
-|dh!give_exp <player> <amount>|Gives a player some exp points. This is a cheat, not to be confused with dh!send_exp.|
-|dh!settings set <parameter> <value>|Modify server settings. You can go to the Bot Settings page to learn more about this command.|
-|dh!settings reset <parameter>|Resets a parameter to the default value. Use this command and not dh!settings set to reset parameters, as it won't cause issues with bot upgrades.|
+|dh!ducks|Используйте, чтобы узнать, сколько уток ещё сегодня появится в канале, а так же получить информацию о последней утке. Может считаться за жульничество.|
+|dh!give_exp <игрок> <кол-во>|Используйте, чтобы выдать игроку очки опыта. Считается жульничеством, не путайте с dh!send_exp.|
+|dh!settings set <параметр> <значение>|Используйте, чтобы изменить параметры. Чтобы получить дополнительную информацию, посетите список параметров.|
+|dh!settings reset <параметр>|Используйте, чтобы выставить значение параметра по умолчанию. Use this command and not dh!settings set to reset parameters, as it won't cause issues with bot upgrades.|
 |dh!game_ban <player>|Bans a player from the game. You can't ban admins, so please don't try :)|
 |dh!game_unban <player>|Unbans a player from the game. They will be able to play again.|
 |dh!remove_all_scores_and_stats_on_this_channel|Deletes a channel scores and stats. Please be sure you really want to do this. You cannot undo this.|
