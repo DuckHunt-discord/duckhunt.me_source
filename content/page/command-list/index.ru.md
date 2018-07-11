@@ -56,10 +56,10 @@ tags: []
 |dh!ducks|Используйте, чтобы узнать, сколько уток ещё сегодня появится в канале, а так же получить информацию о последней утке. Может считаться за жульничество.|
 |dh!give_exp <игрок> <кол-во>|Используйте, чтобы выдать игроку очки опыта. Считается жульничеством, не путайте с dh!send_exp.|
 |dh!settings set <параметр> <значение>|Используйте, чтобы изменить параметры. Чтобы получить дополнительную информацию, посетите список параметров.|
-|dh!settings reset <параметр>|Используйте, чтобы выставить значение параметра по умолчанию. Use this command and not dh!settings set to reset parameters, as it won't cause issues with bot upgrades.|
-|dh!game_ban <player>|Bans a player from the game. You can't ban admins, so please don't try :)|
-|dh!game_unban <player>|Unbans a player from the game. They will be able to play again.|
-|dh!remove_all_scores_and_stats_on_this_channel|Deletes a channel scores and stats. Please be sure you really want to do this. You cannot undo this.|
+|dh!settings reset <параметр>|Используйте, чтобы выставить значение параметра по умолчанию.|
+|dh!game_ban <игрок>|Используйте, чтобы запретить доступ игроку к игре. Не пытайтесь делать это с администраторами, не сработает :)|
+|dh!game_unban <player>|Используйте, чтобы вновь вернуть игроку доступ к игре.|
+|dh!remove_all_scores_and_stats_on_this_channel|Используйте, чтобы удалить всю информацию о канале из базы данных. Используйте только если знаете, что делаете. Результат необратим.|
 {{< /table >}}
 
 
