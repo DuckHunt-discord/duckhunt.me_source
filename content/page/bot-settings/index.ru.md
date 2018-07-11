@@ -45,13 +45,13 @@ slug: "bot-settings"
 |ducks_chance|целое число|100|Устанавливает вероятность появления обычных уток.|
 |super_ducks_chance|целое число|5|Устанавливает вероятность появления суперуток.|
 |baby_ducks_chance|целое число|2|Устанавливает вероятность появления утят.|
-|mother_of_all_ducks_chance|integer|1|Probability that a duck that spawns will be a mother of all ducks|
-|super_ducks_exp_multiplier|float|1.1|To get experience earned when a hunter kill a superduck, we use the formula rounded_integer(exp_won_per_duck_killed * super_ducks_exp_multiplier * duck_life)|
-|super_ducks_maxlife|integer|7|Maximum life of a super duck|
-|super_ducks_minlife|integer|3|Minimum life of a super duck|
-|tax_on_user_give|integer|5|Percentage of exp that will be taken as a tax when a player uses the send_exp command. This can be disabled by setting it to 0.|
-|time_before_ducks_leave|integer|660|Time in seconds before a duck leaves of boredom if he isn't killed.|
-|tts_ducks|bool|False|Try to speak when ducks appear. Experimental setting.|
-|user_can_give_exp|bool|True|Allow users to send each other experience points with the send_exp command.|
-|users_can_find_objects|bool|True|Allow users to find objects in bushes. Some objects are trash, some objects will benefit the hunter.|
+|mother_of_all_ducks_chance|целое число|1|Устанавливает вероятность появления матери всех уток.|
+|super_ducks_exp_multiplier|число с плавающей точкой|1.1|Устанавливает значение в формуле получения опыта за убийство суперутки. Вот формула: округлить(значение параметра exp_won_per_duck_killed * значение параметра super_ducks_exp_multiplier * кол-во жизней у суперутки).|
+|super_ducks_maxlife|целое число|7|Устанавливает максимальное возможное кол-во здоровья у суперуток.|
+|super_ducks_minlife|целое число|3|Устанавливает минимальное возможное кол-во здоровья у суперуток.|
+|tax_on_user_give|целое число|5|Устанавливает комиссию в процентах при передаче опыта с использованием dh!send_exp. Для отключения выставите 0.|
+|time_before_ducks_leave|целое число|660|Устанавливает время в секундах, по истечению которого утка уйдёт со скуки.|
+|tts_ducks|boolean|False|Пытаться/не пытаться использовать text-to-speech, когда появляется утка. Экспериментальный параметр.|
+|user_can_give_exp|boolean|True|Разрешить/не разрешить охотникам использовать dh!send_exp.|
+|users_can_find_objects|boolean|True|Разрешить/не разрешить охотникам капаться в кустах.|
 {{< /table >}}
