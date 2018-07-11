@@ -1,55 +1,49 @@
 ---
-title: "FAQ"
+title: "ЧаВо"
 date: 2004-01-00T00:00:00+00:00
 draft: false
 
 categories: []
 tags: []
 ---
-### How do I play?
+### Как начать игру?
 
-Playing DuckHunt is easy. When a duck (a message sent by the bot looking like `🦆 < COUAAC`) appears in the channel, use the `dh!bang` command to kill it. You can reload your weapon with `dh!reload` when you have no more bullets in your current clip.
+Это очень просто. Когда в канале появится утка (появится сообщение с иконкой утки), используйте команду `dh!bang`, чтобы выстрелить в неё. Используйте `dh!reload`, чтобы перезарядиться, если в магазине не осталось пуль.
 
-You can also access the shop using `dh!shop [name of the item you want]` to buy objects you'll need in your hunting career. A list of items is available [here](https://duckhunt.me/shop-items)
-
- 
-
-### How do I install the bot?
-
-A detailed walkthrough is available on the [install the bot](https://duckhunt.me/install-duckhunt) page
+Можно совершать покупки с помощью `dh!shop [номер предмета]`. Вот [список товаров](https://duckhunt.me/shop-items)
 
  
 
-### Can I see the source code?
+### Как установить бота?
 
-Sure you can! Head to [GitHub](https://github.com/DuckHunt-discord/DHV3) for it!
-
- 
-
-### I want to self-host DuckHunt/I want my own copy of DuckHunt. How do I do it?
-
-This is clearly not recommended. The official bot is the best choice in 99.9% of the cases. Note that no support will be given for self hosted versions, and you have to update the bot in a timely fashion. However, if you still want to try it, instructions are given on the [GitHub](https://github.com/DuckHunt-discord/DHV3/blob/master/INSTALL.md) repo.
+всё подробно описано [здесь](https://duckhunt.me/install-duckhunt).
 
  
 
-### I found a bug! Where should I go?
+### Могу ли я просмотреть исходный код?
 
-Congratulations! You can go to our support server to report it, or open an issue on [GitHub](https://github.com/DuckHunt-discord/DHV3/issues)
-
- 
-
-### I have a feature request/suggestion!
-
-That's not really a question, but you can go to [GitHub](https://github.com/DuckHunt-discord/DHV3/issues) to suggest things!
+Конечно, он есть на [GitHub](https://github.com/DuckHunt-discord/DHV3)!
 
  
 
-### I love you!
+### Я хочу поставить бота на свой хостинг. Как я могу это сделать?
 
-Me too <3
+Не рекомендуем вам этого делать. Использование нашей версии в 99% случаев — лучшее решение. Имейте в виду, что поддержку вам оказывать мы не будем, вам самим придётся обновлять его. Но если вы всё равно хотите это сделать, почитайте инструкцию на [GitHub](https://github.com/DuckHunt-discord/DHV3/blob/master/INSTALL.md).
 
  
 
-### Can I donate to support the development of the bot ?
+### Я нашёл баг! Где я могу про него рассказать?
 
-You can [give me a coffee just here](http://ko-fi.com/duckhunt). Thanks!
+Можете зайти к нам на сервер и рассказать там, или создать Issue на [GitHub](https://github.com/DuckHunt-discord/DHV3/issues)
+
+ 
+
+### У меня есть предложение!
+
+Это не совсем вопрос, но вы можете создать Issue на [GitHub](https://github.com/DuckHunt-discord/DHV3/issues)!
+
+ 
+
+### Могу ли я материально поддержать бота?
+
+[Конечно!](http://ko-fi.com/duckhunt). Спасибо!
