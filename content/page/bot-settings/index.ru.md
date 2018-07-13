@@ -53,5 +53,5 @@ slug: "bot-settings"
 |time_before_ducks_leave|целое число|660|Устанавливает время в секундах, по истечению которого утка уйдёт со скуки.|
 |tts_ducks|boolean|False|Пытаться/не пытаться использовать text-to-speech, когда появляется утка. Экспериментальный параметр.|
 |user_can_give_exp|boolean|True|Разрешить/не разрешить охотникам использовать dh!send_exp.|
-|users_can_find_objects|boolean|True|Разрешить/не разрешить охотникам капаться в кустах.|
+|users_can_find_objects|boolean|True|Разрешить/не разрешить охотникам копаться в кустах.|
 {{< /table >}}
