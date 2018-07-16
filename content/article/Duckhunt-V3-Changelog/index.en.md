@@ -7,47 +7,47 @@ categories: ['Changelog']
 tags: []
 ---
 
-A lot of things changed, internally and externally, and it's not the end of the changes :).
+Многое изменилось и это ещё не конец! :)
  
-The full changelog is to be seen below. Please, as usual, report any bug you find.
+Снизу вы найдёте полный список изменений. Если найдёте баг, просим сообщить о нём.
 
 <!--more-->
  
-If you want to help me further, there is a few things I'd take help on :
+Если вы хотите мне помочь, то вы можете это сделать одним из следующих способов:
 
-*   Translating the bot (A lot of sentences were added/changed, and the translations aren't complete ATM)
-*   Creating artwork for the website: if you have the heart of a graphic designer, and have some free time, please join us!
-*   Helping me building a FAQ for the new website. No coding necessary, and any help is welcome!
-*   Buy me some tea, and support the development of the bot here : [http://ko-fi.com/duckhunt](http://ko-fi.com/duckhunt "http://ko-fi.com/duckhunt")
+*   Локализация (много текста изменилось, на данный момент локализация не закончена)
+*   Оформление сайта. Вы классный дизайнер? Тогда нам очень нужна ваша помощь!
+*   Создание раздела ЧаВо. От вас не требуются навыки в программировании
+*   Материальная помощь: [http://ko-fi.com/duckhunt](http://ko-fi.com/duckhunt "http://ko-fi.com/duckhunt")
 
-If you want to help, support, or have any question regarding the bot, I'm open to PM, and you can post in #support_english on the support server here : [https://discord.gg/G4skWae](https://discord.gg/G4skWae) Now, what's new ?
+Если хотите помочь, получить помощь или поговорить насчёт бота, то пишите мне в ЛС или в канал #support_english: [https://discord.gg/G4skWae](https://discord.gg/G4skWae) Перейдём к списку изменений.
 
-*   For players:
-    *   Events have been added. Check the bot playing status and the !event command. An event is something that happens across every server at once and changes, for the better or the worse, some pre-defined variables (number of ducks, lag, super-ducks life...).
-    *   Global emoji support has been added
-    *   Hints have been added to answer the most common questions before you even think of them
-    *   Commands are now case insensitive: !BANg or !ReLoAD now work too
-    *   You don't have to enter the shop number anymore: !shop charger, !shop bullet... works too.
-    *   Some easter eggs have been added
-    *   More statistics are now collected to be used later
-    *   A new website is available at https://duckhunt.me. It contains the updated command list and settings list, plus a brand-new FAQ.
-*   For server admins:
-    *   The coin command allows the user to choose the life and the super-duck status of a spawned duck
-    *   Duckplanning has been updated to show the current ducks in the channel
-    *   New setup command to replace the !claimserver one (!setup)
-    *   Users with the administrator permission are now admins by default
-    *   global_scores has been removed, as it was rarely used
-    *   settings list and setting modified now show the settings in-chat
-    *   send_exp is now taxed by default
-    *   emoji_ducks is now enabled by default
-*   For developers:
-    *   The bot now uses discord.py rewrite
-    *   There is no json file anymore (As a result, the bot is faster)
-    *   The bot is sharded (Can support more than 2500 servers)
-    *   Hastebin support was replaced by long messages support
-    *   The ping command is clearer now
-    *   Bugs have been added too
-*   For self-hosters (if you don't know what that is, you aren't one):
-    *   A migration script for the json file has been provided, and the new database scheme will be available soon
+*   Для игроков:
+    *   Добавлены события. Чтобы проверить, есть ли сейчас активное событие, используйте dh!event. События происходят на всех серверах сразу, во время событий происходят некоторые изменения (активность уток и т. д.).
+    *   Добавлена поддержка общих эмодзи
+    *   Добавлены подсказки, связанные с частыми вопросами
+    *   Теперь команды нечувствительны к регистру: !BaNg или !SHOOt теперь работают
+    *   Теперь вам не нужно запоминать номера предметов в магазине: используйте !shop charger, !shop bullet и т. д.
+    *   Добавлены пасхалки
+    *   Теперь бот собирает больше данных
+    *   У нас появился ещё один сайт https://duckhunt.me. На нём есть обновлённый список команд, параметров, а также новый раздел ЧаВо.
+*   Для администраторов:
+    *   Команда dh!coin теперь позволяет изменить количество здоровья у суперутки и её статус
+    *   Чтобы показать уток, которые сейчас в канале, мы изменили систему
+    *   Вместо dh!claimserver теперь новая команда для установки (dh!setup)
+    *   Теперь администраторы сервера по умолчанию являются администраторами бота
+    *   Удалён параметр global_scores, т. к. его очень редко использовали
+    *   Теперь dh!settings и dh!settings set показывают параметры прямо в чате
+    *   Теперь при передаче опыта по умолчанию есть комиссия
+    *   Параметр emoji_ducks теперь имеет значение по умолчанию true (вкл.)
+*   Для разработчиков:
+    *   Теперь бот использует новую библиотеку python.py
+    *   Теперь нет файла .json (бот работает быстрее)
+    *   Бот разделён на «части» (теперь поддерживает больше серверов одновременно)
+    *   Поддержка Hastebin убрана, теперь работают длинные сообщения
+    *   Команда dh!ping теперь работает лучше
+    *   Добавлены некоторые баги
+*   Для хостеров (если вы не знаете, кто это, значит вы к ним не относитесь):
+    *   Добавлен скрипт для переноса .json-файла с настройками, скоро будет доступна новая схема базы данных
 
-With löve, Arthur
+С любöвью, Артур
